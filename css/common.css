@@ -1,0 +1,92 @@
+/* Page Body */
+body {
+	font-family: Arial, Helvetica, sans-serig;
+}
+
+/* Definition Lists */
+dl {
+	width: 100%;
+	margin: 2em 0;
+	padding: 0;
+	clear: both;
+	overflow: auto;
+}
+dt {
+	width: 30%;
+	float: left;
+	margin: 0;
+	padding: 5px 9.9% 5px 0;
+	border-top: 1px solid #DDDDB7;
+	font-weight: bold;
+	overflow: auto;
+	clear: left;
+}
+dd {
+	width: 60%;
+	float: left;
+	margin: 0;
+	padding: 6px 0 5px 0;
+	border-top: 1px solid #DDDDB7;
+	overflow: auto;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+	color: #666;
+	font-weight: bold;
+}
+h1 {
+	margin: 35px 0 14px;
+	font-size: 1.5em;
+}
+h2 {
+	margin: 30px 0 12px;
+	font-size: 1.3em;
+}
+h3 {
+	font-weight: normal;
+	margin: 30px 0 14px;
+	font-size: 1.2em;
+}
+h4 {
+	margin: 25px 0 12px;
+	font-size: 1.0em;
+}
+h5 {
+	margin: 25px 0 12px;
+	font-size: 0.9em;
+}
+
+/* Forms */
+form {
+	border: 1px solid orange;
+	position: relative;
+			top: 10px;
+			padding: 20px;
+			margin: 10px;
+}
+label {
+	display: block;
+	clear: both;
+	text-align: right;
+	margin: 0.6em 5px 0 0;
+	width: 40%;
+}
+input, select, textarea {
+	margin: 1em 0 0 0;
+	width: 57%;
+}
+input { border: 1px solid #666 }
+input[type=radio], input[type=checkbox], input[type-submit],
+input[type=reset], input[type=button], input[type=image] {
+	width: auto;
+}
+
+/* preformatted */
+pre { 
+	color: #33CC33;
+	background-color: #1D1D1D;
+	padding: 5px;
+	width: 600px;
+	
+}
